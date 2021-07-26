@@ -1,0 +1,29 @@
+$greyDark: #040404;
+$greyLight: #131313;
+$greyLighter: #282828;
+.App {
+  height: calc(100vh - 90px);
+  background: $greyLight;
+}
+
+.navBar{
+  width: 200px;
+  height: 100%;
+  background: $greyDark;
+}
+
+.oterWrap{
+  background: grey;
+  height: 100vh;
+  min-height: 100%;
+}
+
+.musicControles{
+  background: $greyLighter;
+  text-align: center;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
